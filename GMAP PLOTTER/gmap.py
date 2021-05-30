@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'untitled.ui'
-#
-# Created by: PyQt5 UI code generator 5.10.1
-#
-# WARNING! All changes made in this file will be lost!
+# Developed By Sihab Sahariar
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -177,10 +171,6 @@ class MainWindow(QtWidgets.QMainWindow):
         
         condition_check = Longitude != '' and Latitude != ''
         if condition_check:
-            # URL="https://www.google.com/maps/@"+
-            # Latitude+","
-            # +Longitude+",9z"
-            #https://www.google.com/maps/place/23%C2%B010'24.4%22N+81%C2%B056'10.2%22E/@23.1734515,81.9339634
             Url = QtCore.QUrl(f'https://www.google.com/maps/place/{Latitude}+{Longitude}')
             #print("url is :",Url)
             browser = self.ui.map_plot
