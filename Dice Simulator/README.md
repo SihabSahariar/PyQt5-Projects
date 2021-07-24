@@ -1,4 +1,4 @@
-# GMAP PLOTTER
+# Dice Simulator
 A basic random dice simulator developed in Python using PyQt5 framework.  
 
 Information:
