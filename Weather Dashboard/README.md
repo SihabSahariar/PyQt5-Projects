@@ -11,7 +11,7 @@ PyQt designer is used to make UI.
 🌤️Whenever you open app, you will get to see a changed background every time.
 
 #Screenshot
-<img src="">
+<img src="ss/ss.PNG">
 
 # API
 Api used for fetching weather forecast Open Weathermap (https://openweathermap.org/)
