@@ -10,7 +10,7 @@ PyQt designer is used to make UI.
 🌤️If you write incorrect city name it will show error as "Enter another city name".
 🌤️Whenever you open app, you will get to see a changed background every time.
 
-#Screenshot
+# Screenshot
 <img src="ss/ss.PNG">
 
 # API
